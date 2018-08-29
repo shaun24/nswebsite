@@ -46,9 +46,9 @@ nav.navbar.bootsnav {
     -webkit-box-shadow: 0 3px 6px 0 rgba(20, 20, 20, 0.05);
     box-shadow: 0 3px 6px 0 rgba(20, 20, 20, 0.05)
 }
-
+/* Change navbar color */
 nav.navbar.bootsnav ul.nav > li > a {
-    color: #2c3e50;
+    color: #30e697;
     background-color: transparent;
     outline: none;
     margin-bottom: -2px;
@@ -528,10 +528,11 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover {
         background-color: transparent;
     }
+    /* to change color hamburger #2c3e50 original color*/
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a {
         padding: 10px 15px;
         border-bottom: solid 1px #eee;
-        color: #2c3e50;
+        color: #30e697;
         font-weight: 700;
         font-size: 15px
     }
